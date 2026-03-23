@@ -1,0 +1,17 @@
+{
+    "tarefas": [
+        {
+            "nome": "foto_do_dia",
+            "api_url": "https://api.nasa.gov/planetary/apod",
+            "chaves": ["title", "url", "explanation"],
+            "baixar_arquivo": true
+        },
+        {
+            "nome": "asteroides_hoje",
+            "api_url": "https://api.nasa.gov/neo/rest/v1/feed",
+            "chaves": ["element_count", "near_earth_objects"],
+            "baixar_arquivo": false
+        }
+    ],
+    "arquivo_final": "consolidado_nasa.json"
+}
