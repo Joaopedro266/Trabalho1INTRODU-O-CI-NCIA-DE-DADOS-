@@ -6,7 +6,7 @@ import shutil
 with open("config.json", "r", encoding="utf-8") as f:
     config = json.load(f)
 
-NASA_KEY = os.environ.get("NASA_API_KEY") or "G2zfhr9fNf26KgAMWoMPiNlgNATaArYPADehWjTw"
+NASA_KEY = os.environ.get("NASA_API_KEY") or "nasaapikey"
 resultado_final = {}
 
 for tarefa in config["tarefas"]:
